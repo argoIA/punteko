@@ -27,6 +27,7 @@ Next.js (App Router, última versión) · TypeScript estricto · Tailwind · Sup
 4. Lógica de dominio en `src/domain/`, sin dependencias de Next ni de Supabase.
 5. Gestor de paquetes: pnpm (nunca npm ni yarn). No añadas dependencias sin preguntarme.
 6. Nunca subas secretos al repo; usa `.env.local` y documenta las variables en `.env.example`.
+7. Nunca escribas comentarios en el código, bajo ningún concepto. El código debe explicarse solo con buenos nombres.
 
 ## Estructura
 ```
